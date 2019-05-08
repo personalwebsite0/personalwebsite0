@@ -1,0 +1,139 @@
+body
+{
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)) , url(bilder/pls.jpg);
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+    font-family:  'Montserrat', sans-serif;
+    color: #ffffff;
+}
+
+
+
+header
+{
+    font-size: 30px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+
+h2
+{
+    padding: 0px;
+    margin-bottom: 0px;
+    margin-left: 15px;
+    margin-top: 13px;
+    font-size: 40px;
+}
+
+
+.nav
+{
+    float: right;
+    list-style-type: none;
+    margin-right: 15px;
+    font-size: 20px;
+    margin-top: 12px;
+}
+
+ul li
+{
+    display: inline-block;
+    margin-right: 8px
+}
+
+ul li a
+{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 5px 20px;
+    border: 1px solid #ffffff;
+    transition: 0.3s ease;
+}
+
+ul li a:hover
+{
+    background-color: #ffffff;
+    color: #000000;
+}
+
+ul li.active a
+{
+    background-color:#ffffff;
+    color: #000000;
+}
+
+
+h1
+{
+    text-align: center;
+    font-size: 45px;
+    padding: 12px;
+}
+
+
+.inhalt
+{
+    width: 900px;
+    height: auto;
+    margin-left: 230px;
+    margin-right: 250px;
+    margin-top: 30px;
+    background-color: rgba(15, 15, 15, 0.4);
+    color: #ece5e5;
+}
+
+
+
+h3
+{
+    font-size: 35px;
+    color: rgb(219, 195, 87);
+    padding-left: 15px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+p
+{
+    padding-left: 15px;
+    padding-top: 8px;
+    margin-top: 0px;
+    font-size: 25px;
+}
+
+
+.fi
+{
+  width: 270px;
+  bottom: 0;
+  right: 0;
+  z-index: 3;
+  position: fixed;
+  text-align: center;
+  display: flex;
+}
+
+.fi a
+{
+  color:white;
+  background: #e74c3c;
+  font-size: 27px;
+  padding: 5px;
+  width:45px;
+  text-decoration: none;
+  margin: 0px;
+  transition: all 0.2s ease-in-out;
+  opacity: 0.5;
+}
+
+.fi a:hover
+{
+  color: white;
+  opacity: 1;
+}
+
+
